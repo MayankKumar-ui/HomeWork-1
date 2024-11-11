@@ -1,0 +1,30 @@
+package demo;
+
+public class GreatestFour {
+
+	public static void main(String[] args) {
+		
+		        // Define variables
+		        int x = 10;
+		        int y = 30;
+		        int z = 60;
+		        int w = 50;
+
+		        int greatest = x; // Assume x is the greatest initially
+
+		        // Compare with y
+		        if (y > greatest) {
+		            greatest = y;
+		        }
+		        // Compare with z
+		        if (z > greatest) {
+		            greatest = z;
+		        }
+		        // Compare with w
+		        if (w > greatest) {
+		            greatest = w;
+		        }
+
+		        System.out.println("The greatest number is: " + greatest);
+		    }
+		}

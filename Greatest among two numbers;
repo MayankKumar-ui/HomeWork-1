@@ -1,0 +1,17 @@
+package demo;
+
+public class Operator {
+
+	public static void main(String[] args) {
+		int first = 55;                      // initialization statement
+		 int second = 79;                     // initialization statement
+		 int max;                             // declaration statement
+		 
+		 if(first < second)                   // condition 55>79--> false 
+		 {
+		   max = second;
+	       System.out.println("Greater Value : "+max);		 
+		 }
+	}
+
+}
